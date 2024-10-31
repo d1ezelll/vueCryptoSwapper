@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap'); /*Nabla*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); /*Montserrat*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(131,22,152);
+  background: linear-gradient(90deg, rgba(131,22,152,1) 0%, rgba(109,57,255,1) 48%, rgba(9,77,233,1) 100%);
+  min-height: 100vh;
+  text-align: center;
+  font-family: Montserrat;
+}
+
+h1 {
+  font-family: Nabla;
+  font-size: 8em;
+  color: #feff39;
+  margin-top: 70px;
+}
+
+.result-text {
+  font-family: 'Nabla', cursive;
+  font-size: 2em;
+}

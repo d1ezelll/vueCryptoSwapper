@@ -8,6 +8,10 @@
             convert: {
                 type: Function,
                 required: true
+            },
+            favourite: {
+                type: Function,
+                required: true
             }
         }
     }
@@ -16,6 +20,7 @@
 <template>
     <input min="0" type="number" @input="changeAmount($event.target.value)" placeholder="Enter the number">
     <br><button @click="convert()">Convert</button><br>
+    <br><button @click="favourite()">Add in Favourites</button><br>
 </template>
 
 <style scoped>
@@ -33,7 +38,6 @@
     }
 
     button {
-        margin-bottom: 20px;
         position: relative;
         padding: 15px 20px;
         color: aliceblue;
@@ -42,5 +46,9 @@
         background: #1a032d;
         border: none;
         border-radius: 8px;
+    }
+
+    button:nth-of-type(2) {
+        margin-bottom: 20px;
     }
 </style>
